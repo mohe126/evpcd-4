@@ -1250,7 +1250,7 @@ uint8_t evpcd_isa_exec(){
         case 128 + 2: evpcd_isa_movi(); break;
 
         
-        case 128 + 4: evpcd_isa_noti(); break;
+        
         case 128 + 5: evpcd_isa_ori(); break;
         case 128 + 6: evpcd_isa_xori(); break;
         case 128 + 7: evpcd_isa_andi(); break;
@@ -1292,5 +1292,6 @@ uint8_t evpcd_isa_exec(){
 
     return opcode;
 }
+
 
 
